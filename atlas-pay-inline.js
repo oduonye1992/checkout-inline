@@ -10,8 +10,8 @@ function AtlasPay (options) {
     var _options = Object.assign({}, _defaultOptions, options);
 
     var _endPoints = {
-        dev: "https://nairaland.com/",
-        prod: "https://nairaland.com/"
+        dev: "https://devpay.atlas.money/atlaspay/checkout/",
+        prod: "https://devpay.atlas.money/atlaspay/checkout"
     };
 
     var _promises = {
@@ -44,6 +44,12 @@ function AtlasPay (options) {
                 closeModal(e.data);
             }
         },false);
+
+        // Listen for modal close event
+        var closeBtn = document.getElementById("atlas_pay_modal_close_btn");
+        closeBtn.addEventListener('click', function(){
+            closeModal("Modal closed");
+        });
     };
 
     var openIframe = function(url) {
@@ -53,7 +59,7 @@ function AtlasPay (options) {
         ifrm.setAttribute('id', elementId);
         ifrm.setAttribute('allowtransparency', true);
         ifrm.setAttribute('frameborder', 0);
-        ifrm.setAttribute('style', "height:50vh; width:50vw; background-color:#34495e;");
+        ifrm.setAttribute('style', "height:100vh; width:100vw; background-color:#34495e;");
 
         // To place at end of document
         var modal = document.getElementById('myModal');
@@ -66,12 +72,12 @@ function AtlasPay (options) {
     var openModal = function(url) {
         var link = document.createElement('link');
         link.rel = 'stylesheet';
-        var head = document.getElementsByTagName('head')[0];
         link.href = _stylesheetURL;
+        var head = document.getElementsByTagName('head')[0];
         head.appendChild(link);
         var modalContent = '<div class="modal" id="atlas_pay_modal">'+
             '<div class="modal-content">'+
-                '<span class="close">&times;</span>'+
+                '<span class="close" id="atlas_pay_modal_close_btn" style="color:red">&times;</span>'+
             '<div id="myModal" style="align-items:center; justify-content: center; display: flex;"></div>'+
             '</div>'+
         '</div>';
@@ -109,6 +115,7 @@ function AtlasPay (options) {
                     resolve: resolve,
                     reject: reject
                 };
+
                 // Open modal
                 if (!options.transactionId) throw new Error ("Transaction ID is invalid");
                 var url = _endPoints[_options.environment];//+"checkout/"+_options.transactionId;
