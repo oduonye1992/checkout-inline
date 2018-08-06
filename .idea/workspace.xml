@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54329b3a-c7fa-444a-963f-5fd64eceddbc" name="Default" comment="" />
+    <list default="true" id="54329b3a-c7fa-444a-963f-5fd64eceddbc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +18,16 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53235656">
+    <splitter split-orientation="horizontal" split-proportion="0.7873956">
       <split-first>
         <leaf>
-          <file leaf-file-name="atlas-pay-inline.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/atlas-pay-inline.js">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+                <state relative-caret-position="145">
+                  <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
                   <folding>
-                    <element signature="e#312#442#0" expanded="false" />
-                    <element signature="e#465#532#0" expanded="false" />
-                    <element signature="e#564#722#0" expanded="false" />
-                    <element signature="e#1994#2525#0" expanded="false" />
-                    <element signature="e#3522#3916#0" expanded="false" />
-                    <marker date="1533223194000" expanded="true" signature="2844:3138" ph="..." />
-                    <marker date="1533223194000" expanded="true" signature="2887:3120" ph="..." />
-                    <marker date="1533223194000" expanded="true" signature="2966:2975" ph="..." />
-                    <marker date="1533223194000" expanded="true" signature="2977:2984" ph="×" />
-                    <marker date="1533223194000" expanded="true" signature="3032:3091" ph="..." />
+                    <marker date="1533561108000" expanded="true" signature="279:288" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -42,11 +37,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="atlas-pay-inline.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/atlas-pay-inline.css">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -71,12 +66,16 @@
       <find>iframer</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/atlas-pay-inline.css" />
         <option value="$PROJECT_DIR$/atlas-pay-inline.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -113,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -128,7 +128,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,6 +191,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -238,35 +243,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533199678613</updated>
-      <workItem from="1533199681186" duration="16135000" />
+      <workItem from="1533199681186" duration="16242000" />
+      <workItem from="1533560971867" duration="186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16135000" />
+    <option name="totallyTimeSpent" value="16428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1959707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1959707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,56 +286,124 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/atlas-pay-inline.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="2407">
+          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
-            <marker date="1533221619000" expanded="true" signature="31:389" ph="..." />
-            <marker date="1533221619000" expanded="true" signature="38:99" ph="..." />
-            <marker date="1533221619000" expanded="true" signature="106:381" ph="..." />
-            <marker date="1533221619000" expanded="true" signature="120:141" ph="..." />
-            <marker date="1533221619000" expanded="true" signature="142:190" ph="..." />
-            <marker date="1533221619000" expanded="true" signature="225:234" ph="..." />
-            <marker date="1533221619000" expanded="true" signature="243:373" ph="..." />
+            <marker date="1533223194000" expanded="true" signature="42:4429" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="70:134" ph="{&quot;environment&quot;: &quot;prod&quot;...}" />
+            <marker date="1533223194000" expanded="false" signature="312:442" ph="{&quot;dev&quot;: &quot;https://devpay.atlas.money/atlaspay/checkout/&quot;...}" />
+            <marker date="1533223194000" expanded="false" signature="465:532" ph="{...}" />
+            <marker date="1533223194000" expanded="false" signature="564:722" ph="{&quot;atlas_pay_transaction_successful&quot;: &quot;atlas_pay_transaction_successful&quot;...}" />
+            <marker date="1533223194000" expanded="true" signature="729:1144" ph="/** @example parent.postMessage(&quot;Hello&quot;,&quot;https://atlas.money&quot;); ...*/" />
+            <marker date="1533223194000" expanded="true" signature="1187:1956" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="1547:1717" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="1656:1707" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="1897:1948" ph="{...}" />
+            <marker date="1533223194000" expanded="false" signature="1994:2525" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="2562:3470" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="2844:3138" ph="..." />
+            <marker date="1533223194000" expanded="true" signature="2887:3120" ph="..." />
+            <marker date="1533223194000" expanded="true" signature="2966:2975" ph="..." />
+            <marker date="1533223194000" expanded="true" signature="2977:2984" ph="×" />
+            <marker date="1533223194000" expanded="true" signature="3032:3091" ph="..." />
+            <marker date="1533223194000" expanded="false" signature="3522:3916" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3773:3841" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3847:3910" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3930:4427" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3961:4421" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="4020:4409" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="4050:4142" ph="{&quot;resolve&quot;: resolve...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atlas-pay-inline.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="609">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1533223058000" expanded="true" signature="7:389" ph="{...}" />
+            <marker date="1533223058000" expanded="true" signature="430:666" ph="{...}" />
+            <marker date="1533223058000" expanded="true" signature="550:664" ph="/*...*/" />
+            <marker date="1533223058000" expanded="true" signature="698:780" ph="{...}" />
+            <marker date="1533223058000" expanded="true" signature="809:878" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atlas-pay-inline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1533223058000" expanded="true" signature="7:389" ph="{...}" />
+            <marker date="1533223058000" expanded="true" signature="430:666" ph="{...}" />
+            <marker date="1533223058000" expanded="true" signature="550:664" ph="/*...*/" />
+            <marker date="1533223058000" expanded="true" signature="698:780" ph="{...}" />
+            <marker date="1533223058000" expanded="true" signature="809:878" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atlas-pay-inline.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
           <folding>
-            <element signature="e#312#442#0" expanded="false" />
-            <element signature="e#465#532#0" expanded="false" />
-            <element signature="e#564#722#0" expanded="false" />
-            <element signature="e#1994#2525#0" expanded="false" />
-            <element signature="e#3522#3916#0" expanded="false" />
+            <marker date="1533223194000" expanded="true" signature="42:4429" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="70:134" ph="{&quot;environment&quot;: &quot;prod&quot;...}" />
+            <marker date="1533223194000" expanded="false" signature="312:442" ph="{&quot;dev&quot;: &quot;https://devpay.atlas.money/atlaspay/checkout/&quot;...}" />
+            <marker date="1533223194000" expanded="false" signature="465:532" ph="{...}" />
+            <marker date="1533223194000" expanded="false" signature="564:722" ph="{&quot;atlas_pay_transaction_successful&quot;: &quot;atlas_pay_transaction_successful&quot;...}" />
+            <marker date="1533223194000" expanded="true" signature="729:1144" ph="/** @example parent.postMessage(&quot;Hello&quot;,&quot;https://atlas.money&quot;); ...*/" />
+            <marker date="1533223194000" expanded="true" signature="1187:1956" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="1547:1717" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="1656:1707" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="1897:1948" ph="{...}" />
+            <marker date="1533223194000" expanded="false" signature="1994:2525" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="2562:3470" ph="{...}" />
             <marker date="1533223194000" expanded="true" signature="2844:3138" ph="..." />
             <marker date="1533223194000" expanded="true" signature="2887:3120" ph="..." />
             <marker date="1533223194000" expanded="true" signature="2966:2975" ph="..." />
             <marker date="1533223194000" expanded="true" signature="2977:2984" ph="×" />
             <marker date="1533223194000" expanded="true" signature="3032:3091" ph="..." />
+            <marker date="1533223194000" expanded="false" signature="3522:3916" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3773:3841" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3847:3910" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3930:4427" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="3961:4421" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="4020:4409" ph="{...}" />
+            <marker date="1533223194000" expanded="true" signature="4050:4142" ph="{&quot;resolve&quot;: resolve...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <marker date="1533561108000" expanded="true" signature="279:288" ph="..." />
           </folding>
         </state>
       </provider>
