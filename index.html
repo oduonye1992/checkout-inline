@@ -6,12 +6,22 @@
 </head>
 <body>
 <div style="background-color: red">
-    <p>sdjknskjdnsjkdsnjkddsjkdsdsdj</p>
-</div>t
+    <p>Background Page content</p>
+    <button onclick="checkoutBtnClicked();">Open checkout page</button>
+</div>
 <script src="atlas-pay-inline.js"></script>
 <script>
-    var atlasPay = new AtlasPay({transactionId: "123456"});
-    atlasPay.charge().then(console.log).catch(console.log);
+    function checkoutBtnClicked(){
+        var transactionId = Date.now();
+        var atlasPay = new AtlasPay({transactionId: transactionId});
+        atlasPay.charge()
+            .then(function(data){
+                alert("Success "+data);
+            })
+            .catch(function(e){
+                alert("Error "+e);
+            });
+    }
 </script>
 </body>
 </html>
