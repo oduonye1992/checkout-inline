@@ -5,7 +5,7 @@ function AtlasPay (options) {
         transactionId: null
     };
 
-    var _stylesheetURL = "http://localhost:63342/checkout-inline/atlas-pay-inline.css";
+    var _stylesheetURL = "https://atlas-checkout-inline.herokuapp.com/atlas-pay-inline.css";
 
     var _options = Object.assign({}, _defaultOptions, options);
 
