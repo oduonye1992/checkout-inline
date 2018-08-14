@@ -40,8 +40,14 @@ function AtlasPay (options) {
         // Listen to message from child window
         eventer(messageEvent,function(e) {
             console.log('parent received message!:  ',e.data);
-            if (_postMessageEvents[e.data]) {
-                closeModal(e.data);
+            // E.g of post-message = atlas_pay_transaction_successful|authorization_code
+            // Split the first pa
+            let resp = e.data;
+            resp = resp.split('|');
+            if (resp.length === 2) {
+                if (_postMessageEvents[resp[0]]) {
+                    closeModal(resp[0], resp[1]);
+                }
             }
         },false);
 
@@ -72,6 +78,7 @@ function AtlasPay (options) {
     var openModal = function(url) {
         var link = document.createElement('link');
         link.rel = 'stylesheet';
+        link.id = 'atlas_stylesheet';
         link.href = _stylesheetURL;
         var head = document.getElementsByTagName('head')[0];
         head.appendChild(link);
@@ -94,17 +101,17 @@ function AtlasPay (options) {
         listenForPostMessage();
     };
 
-    var closeModal = function(transaction_status){
-        // Get the modal
-        var modal = document.getElementById('atlas_pay_modal');
-
-        modal.style.display = "none";
-        modal.innerHTML = "";
+    var closeModal = function(transaction_status, msg){
         if (transaction_status === _postMessageEvents['atlas_pay_transaction_successful']) {
-            _promises.resolve("Transaction successful");
+            _promises.resolve(msg);
         } else {
             _promises.reject("Transaction Failed");
         }
+        // Get the modal
+        var modal = document.getElementById('atlas_pay_modal');
+        modal.parentNode.removeChild(modal);
+        var styleElement = document.getElementById('atlas_stylesheet');
+        modal.parentNode.removeChild(styleElement);
     };
 
     return {
