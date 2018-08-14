@@ -11,7 +11,7 @@ function AtlasPay (options) {
 
     var _endPoints = {
         dev: "https://devpay.atlas.money/atlaspay/checkout/",
-        prod: "https://devpay.atlas.money/atlaspay/checkout"
+        prod: "https://devpay.atlas.money/atlaspay/checkout/"
     };
 
     var _promises = {
@@ -125,7 +125,8 @@ function AtlasPay (options) {
 
                 // Open modal
                 if (!options.transactionId) throw new Error ("Transaction ID is invalid");
-                var url = _endPoints[_options.environment];//+"checkout/"+_options.transactionId;
+                let origin = location.origin;
+                var url = _endPoints[_options.environment]+_options.transactionId+"origin?"+origin;
                 openModal(url);
             });
         }
