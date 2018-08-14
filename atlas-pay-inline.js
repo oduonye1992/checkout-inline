@@ -126,7 +126,7 @@ function AtlasPay (options) {
                 // Open modal
                 if (!options.transactionId) throw new Error ("Transaction ID is invalid");
                 let origin = location.origin;
-                var url = _endPoints[_options.environment]+_options.transactionId+"origin?"+origin;
+                var url = _endPoints[_options.environment]+_options.transactionId+"/origin?"+origin;
                 openModal(url);
             });
         }
