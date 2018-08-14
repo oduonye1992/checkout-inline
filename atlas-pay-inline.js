@@ -65,7 +65,7 @@ function AtlasPay (options) {
         ifrm.setAttribute('id', elementId);
         ifrm.setAttribute('allowtransparency', true);
         ifrm.setAttribute('frameborder', 0);
-        ifrm.setAttribute('style', "height:100vh; width:100vw; background-color:#34495e;");
+        ifrm.setAttribute('style', "height:100vh; width:100vw; background-color:#34495e00;");
 
         // To place at end of document
         var modal = document.getElementById('myModal');
