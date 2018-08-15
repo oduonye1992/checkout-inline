@@ -110,8 +110,8 @@ function AtlasPay (options) {
         // Get the modal
         var modal = document.getElementById('atlas_pay_modal');
         modal.parentNode.removeChild(modal);
-        var styleElement = document.getElementById('atlas_stylesheet');
-        modal.parentNode.removeChild(styleElement);
+        // var styleElement = document.getElementById('atlas_stylesheet');
+        // modal.parentNode.removeChild(styleElement);
     };
 
     return {
