@@ -108,10 +108,15 @@ function AtlasPay (options) {
             _promises.reject("Transaction Failed");
         }
         // Get the modal
-        var modal = document.getElementById('atlas_pay_modal');
-        modal.parentNode.removeChild(modal);
-        // var styleElement = document.getElementById('atlas_stylesheet');
-        // modal.parentNode.removeChild(styleElement);
+        var _modal = document.querySelector('#atlas_pay_modal');
+        if (_modal) {
+            _modal.parentNode.removeChild(_modal);
+        }
+
+        var styleElement = document.querySelector('#atlas_stylesheet');
+        if (styleElement) {
+            styleElement.parentNode.removeChild(styleElement);
+        }
     };
 
     return {
