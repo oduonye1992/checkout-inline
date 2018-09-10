@@ -10,7 +10,7 @@ function AtlasPay (options) {
     var _options = Object.assign({}, _defaultOptions, options);
 
     var _endPoints = {
-        dev: "http://localhost:8080/atlaspay/checkout/",
+        dev: "http://localhost:4001/atlaspay/checkout/",
         prod: "https://devpay.atlas.money/atlaspay/checkout/"
     };
 
