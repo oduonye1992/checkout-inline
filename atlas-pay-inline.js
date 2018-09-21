@@ -39,15 +39,19 @@ function AtlasPay (options) {
 
         // Listen to message from child window
         eventer(messageEvent,function(e) {
-            console.log('parent received message!:  ',e.data);
-            // E.g of post-message = atlas_pay_transaction_successful|authorization_code
-            // Split the first pa
-            let resp = e.data;
-            resp = resp.split('|');
-            if (resp.length === 2) {
+            try {
+              console.log('parent received message!:  ',e.data);
+              // E.g of post-message = atlas_pay_transaction_successful|authorization_code
+              // Split the first pa
+              let resp = e.data;
+              resp = resp.split('|');
+              if (resp.length === 2) {
                 if (_postMessageEvents[resp[0]]) {
-                    closeModal(resp[0], resp[1]);
+                  closeModal(resp[0], resp[1]);
                 }
+              }
+            } catch (e) {
+               console.log(e);
             }
         },false);
 
